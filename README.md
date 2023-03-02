@@ -24,9 +24,8 @@ To solve any of the tasks 02 to 06 below do the following
       and upload it to brute evaluation system.
       
 
- 
-------------------------------------------
-Task 01
+
+# Task 01
  
 Lists A and B of integers are in the input, each on a separate line.
 For each list, print the number of items in it which value is smaller than the
@@ -64,8 +63,7 @@ def task01( List1, List2 ):
 '''
  
  
-------------------------------------------
- Task 02 
+# Task 02 
 Lists A and B of integers are in the input, each on a separate line.
 Check if in each of the lists the following holds:
 The number of leading values 0 is equal to the number of trailing values 0.
@@ -84,7 +82,6 @@ True
  
  
  
-# ------------------------------------------
 # Task 03
 Lists A and B of integers are in the input, each on a separate line.
 Task: Substitute all occurrences of maximum in B by minimum of value of A.
@@ -102,7 +99,6 @@ Output
  
  
  
-# ------------------------------------------
 # Task 04 
  
 Lists A and B of integers are in the input, each on a separate line.
@@ -121,7 +117,7 @@ None
 '''
  
  
-# ------------------------------------------
+
 # Task 05    
  
 The input contains the size (dimension) S of a square matrix of integers,
@@ -150,7 +146,7 @@ Output
 '''
  
  
-# ------------------------------------------
+
 # Task 06    
  
 The input contains the size (dimension) S of a square matrix of integers,
