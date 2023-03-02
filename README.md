@@ -1,10 +1,8 @@
 # PGE_Practices_01
 
-# ( Part of BE5B33PGE course, FEL CTU, 2023 )
- 
-# -------------------------------------------------------------------- 
-#     1D/2D   list/array problems  to upload
-# -------------------------------------------------------------------- 
+Part of BE5B33PGE course, FEL CTU, 2023
+1D/2D   list/array problems  to upload
+
 
 Each program you submit to the evaluation system will be capable
 of solving more than one task. Each time your program is run,
@@ -27,12 +25,12 @@ To solve any of the tasks 02 to 06 below do the following
       
 
  
-# ------------------------------------------
-# Task 01
+------------------------------------------
+Task 01
  
-# Lists A and B of integers are in the input, each on a separate line.
-# For each list, print the number of items in it which value is smaller than the
-# value of the first item in the list. Print the results on separate lines.
+Lists A and B of integers are in the input, each on a separate line.
+For each list, print the number of items in it which value is smaller than the
+value of the first item in the list. Print the results on separate lines.
 
 def task01( List1, List2 ):
     print( len( [x for x in List1 if x < List1[0]] ) )
@@ -66,13 +64,12 @@ def task01( List1, List2 ):
 '''
  
  
-# ------------------------------------------
-# Task 02 
- 
-# Lists A and B of integers are in the input, each on a separate line.
-# Check if in each of the lists the following holds:
-# The number of leading values 0 is equal to the number of trailing values 0.
-# Print True or False accordingly on a separate line.
+------------------------------------------
+ Task 02 
+Lists A and B of integers are in the input, each on a separate line.
+Check if in each of the lists the following holds:
+The number of leading values 0 is equal to the number of trailing values 0.
+Print True or False accordingly on a separate line.
  
 '''
 Example:
@@ -89,10 +86,9 @@ True
  
 # ------------------------------------------
 # Task 03
- 
-# Lists A and B of integers are in the input, each on a separate line.
-# Task: Substitute all occurrences of maximum in B by minimum of value of A.
-# Print modified B. Print only values separated by single spaces.
+Lists A and B of integers are in the input, each on a separate line.
+Task: Substitute all occurrences of maximum in B by minimum of value of A.
+Print modified B. Print only values separated by single spaces.
  
 '''
 Example:
@@ -109,10 +105,10 @@ Output
 # ------------------------------------------
 # Task 04 
  
-# Lists A and B of integers are in the input, each on a separate line.
-# For each list, find minimum of all values which appear in list exactly twice.
-# Print the minimum on a separate line.
-# If no value appears twice in the list print string None.
+Lists A and B of integers are in the input, each on a separate line.
+For each list, find minimum of all values which appear in list exactly twice.
+Print the minimum on a separate line.
+If no value appears twice in the list print string None.
 '''
 Example:
 Input
@@ -128,13 +124,13 @@ None
 # ------------------------------------------
 # Task 05    
  
-# The input contains the size (dimension) S of a square matrix of integers,
-# each of the next S lines contains one row of the matrix.
-# The items on a line are separated by single spaces.
-# Shrink the size of the matrix by 2:
-# Remove the first and the next row of the matrix
-# and the first and the last column  of the matrix.
-# print the resulting matrix in the same format as in the input.
+The input contains the size (dimension) S of a square matrix of integers,
+each of the next S lines contains one row of the matrix.
+The items on a line are separated by single spaces.
+Shrink the size of the matrix by 2:
+Remove the first and the next row of the matrix
+and the first and the last column  of the matrix.
+print the resulting matrix in the same format as in the input.
 '''
 Example:
 Input
@@ -157,13 +153,13 @@ Output
 # ------------------------------------------
 # Task 06    
  
-# The input contains the size (dimension) S of a square matrix of integers,
-# each of the next S lines contains one row of the matrix.
-# The items on a line are separated by single spaces.
-# Exchange the contents of the diagonals of the matrix.
-# The items on the diagonals will stay in the same row,
-# but in each row, the item X in the main diagonal will be exchanged with the
-# item Y in the secondary diagonal (antidiagonal) in the same row.
+The input contains the size (dimension) S of a square matrix of integers,
+each of the next S lines contains one row of the matrix.
+The items on a line are separated by single spaces.
+Exchange the contents of the diagonals of the matrix.
+The items on the diagonals will stay in the same row,
+but in each row, the item X in the main diagonal will be exchanged with the
+item Y in the secondary diagonal (antidiagonal) in the same row.
  
 '''
 Example:
