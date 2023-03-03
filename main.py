@@ -6,8 +6,7 @@
 # --------------------------------------------------------------------
 
 
-
-# Task 01
+' Task 01 '
 # Lists A and B of integers are in the input, each on a separate line.
 # For each list, print the number of items in it which value is smaller than the
 # value of the first item in the list. Print the results on separate lines.
@@ -17,9 +16,7 @@ def task01(List1, List2):
     print(len([x for x in List2 if x < List2[0]]))
 
 
-
-
-# Task 02
+' Task 02 '
 
 # Lists A and B of integers are in the input, each on a separate line.
 # Check if in each of the lists the following holds:
@@ -42,10 +39,7 @@ def task02(list):
     print(flag1 == flag2)
 
 
-
-
-# ------------------------------------------
-# Task 03
+' Task 03 '
 
 # Lists A and B of integers are in the input, each on a separate line.
 # Task: Substitute all occurrences of maximum in B by minimum of value of A.
@@ -56,7 +50,53 @@ def task03(list1, list2):
     for i in range(len(list2)):
          if list2[i] == b:
             list2[i] = a
-    print(list2)
+    for x in list2:
+        print(x,end=' ')
+
+
+' Task 04 '
+def task04(list):
+    dict = {}
+    P=[]
+    for key in list:
+        dict[key] = dict.get(key, 0) + 1
+    for key,value in dict.items():
+        if value == 2:
+            P.append(key)
+    if len(P)>0:
+        print(min(P))
+    else:
+        print(None)
+
+
+' Task 05 '
+def task05(matrix):
+    P=[]
+    for i in range(1,matrixSize-1):
+        P.append(matrix[i][1:matrixSize-1])
+
+    for k in P:
+        print(*k)
+
+
+
+' Task 06 '
+def task06(matrix):
+    P=[]
+    for i in range(matrixSize):
+        P.append(matrix[i])
+    for j,k in zip(range(matrixSize), range(matrixSize)):
+            temp = P[j][k]
+            P[j][k] = P[j][matrixSize-k-1]
+            P[j][matrixSize - k-1] = temp
+
+    for k in P:
+        print(*k)
+
+
+
+
+
 
 
 
